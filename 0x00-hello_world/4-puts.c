@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - prints "Programming is like building a multilingual puzzle"
- * Return 0
+ * main - Entry point
+ *
+ * puts -print declared char string to std output
+ *
+ * Return always 0 (done)
  */
 
 int main (void)
@@ -11,3 +14,4 @@ int main (void)
 
 	return (0);
 }
+
