@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-/* main - input value
+/**
+ * main - input value
  *
- * print - Piece of Art
+ * Description: print - Piece of Art
  *
  * Return: 0 (achieved)
  */
