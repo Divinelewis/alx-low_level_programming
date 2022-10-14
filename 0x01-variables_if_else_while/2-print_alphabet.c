@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
  * putchar - to write string to the alphabet
