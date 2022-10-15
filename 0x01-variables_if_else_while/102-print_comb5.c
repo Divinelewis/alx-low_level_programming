@@ -15,12 +15,12 @@ int main(void)
 		{
 			if (n < m)
 			{
-				putchar((i / 10) + 48);
-				putchar((i % 10) + 48);
+				putchar((n / 10) + 48);
+				putchar((n % 10) + 48);
 				putchar(' ');
-				putchar((j / 10) + 48);
-				putchar((j % 10) + 48);
-				if (i != 98 || j != 99)
+				putchar((m / 10) + 48);
+				putchar((m % 10) + 48);
+				if (n != 98 || m != 99)
 				{
 					putchar(',');
 					putchar(' ');
