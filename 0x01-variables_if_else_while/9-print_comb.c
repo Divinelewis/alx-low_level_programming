@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i = 0;
-	char hexvalues[] = "0123456789abcdef";
+	int hexvalues[] = "0123456789abcdef";
 
 	for (i = 0; i < 16; i++)
 	{
