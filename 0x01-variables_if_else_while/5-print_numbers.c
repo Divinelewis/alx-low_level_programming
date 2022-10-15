@@ -11,9 +11,9 @@ int main(void)
 
 	while (i <= '9')
 	{
-		printf("%d", i);
+		putchar(i);
 		++i;
 	}
-	printf('\n');
+	putchar('\n');
 	return (0);
 }
