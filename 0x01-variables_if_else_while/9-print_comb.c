@@ -8,16 +8,11 @@
 int main(void)
 {
 	int i = 0;
+	char hexvalues[] = "0123456789abcdef";
 
-	while (i <= 9)
+	for (i = 0; i < 16; i++)
 	{
-		putchar(i + 48);
-		if (i != 9)
-		{
-			putchar (',);
-			putchar (' ');
-		}
-	++i
+		putchar(hexvalues[i]);
 	}
 	putchar('\n');
 	return (0);
