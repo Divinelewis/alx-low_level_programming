@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description - prints A to Z in reverse 
+ * Description - prints A to Z in reverse
  * Return: Always 0 (success)
  */
 
