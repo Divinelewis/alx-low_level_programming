@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - chevks for alphabetic characteds
+ * @c: the argument
  * Return: 0 if successful
  */
 
