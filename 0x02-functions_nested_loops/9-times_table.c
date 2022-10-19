@@ -22,7 +22,8 @@ void times_table(void)
 			} else
 			{
 				_putchar((result / 10) + '0');
-			_putchaf((result % 10) + '0');
+			_putchar((result % 10) + '0');
+			}
 		_putchar('\n');
 		}
 	}
