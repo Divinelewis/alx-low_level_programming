@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * 5_sign - print the sign of a number
+ * print_sign - print the sign of a number
  * @n: Takes in argument n
- * Return - varying output
+ * Return: varying output
  */
 
 int print_sign(int n)
