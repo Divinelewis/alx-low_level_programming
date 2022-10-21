@@ -3,7 +3,7 @@
 /**
  * _isupper - checks for uppercase characters
  * @c: the argument
- * 
+ *
  * Return: 1 if c is uppercase and 0 if otherwise
  */
 
