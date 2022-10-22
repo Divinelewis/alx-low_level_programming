@@ -7,15 +7,19 @@
 
 int main(void)
 {
-	long n, i;
+	long num = 612852475143;
+	long divisor = 2;
+	long larg_prim = 0;
 
-	n = 612852475143;
-	for (i = 2; i < n; i++)
+	while (num != 1)
 	{
-		while (n % i == 1)
-			n = n / i;
+		if (num % divisor == 0)
+		{
+			num = num / divisor;
+			larg_prim = divisor;
+		}
+		divisor += 1;
 	}
-	printf("%lu\n", n);
-
+	printf("%ld\n", larg_prim);
 	return (0);
 }
