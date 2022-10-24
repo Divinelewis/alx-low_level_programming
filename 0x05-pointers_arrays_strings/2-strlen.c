@@ -9,11 +9,9 @@
 
 int _strlen(char *s)
 {
-	char *str;
-	int len;
+	int a = 0;
 
-	str = "Holberton!";
-	len = _strlen(str);
-	printf("%d\n", len);
-	return (0);
+	for (; *s++;)
+		a++;
+	return (a);
 }
