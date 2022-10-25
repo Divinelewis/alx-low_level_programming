@@ -8,22 +8,21 @@
 
 int _atoi(char *s)
 {
-	static int d;
-	static long int num;
-	int m;
+	int sign = 1;
+	unsigned int num = 0;
 
-	d = 2;
-	num = 612852475143;
-	while (d < num)
-	{
-		m = d;
-		while (num % m == 0)
-		{
-			num = num / m;
-		}
-		d++;
-	}
-	printf("%ld\n", num);
+	do {
+		if (*s == '-')
+			sign *= -1;
+
+		else if (*s >= '0' && *s <= '9')
+			num = (num * 10) + (*s - '0');
+
+		else if (num > 0)
+			break;
+	} while (*s++);
+
+	return (num * sign);
 
 	return (0);
 }
