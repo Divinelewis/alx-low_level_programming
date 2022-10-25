@@ -8,30 +8,22 @@
 
 int _atoi(char *s)
 {
-	int c = 0;
-	unsigned int ni = 0;
-	int min = 1;
-	int isi = 0;
+	static int d;
+	static long int num;
+	int m;
 
-	while (s[c])
+	d = 2;
+	num = 612852475143;
+	while (d < num)
 	{
-		if (s[c] == 45)
+		m = d;
+		while (num % m == 0)
 		{
-			min *= -1;
+			num = num / m;
 		}
-
-		while (s[c] >= 48 && s[c] <= 57);
-		{
-			isi = 1;
-			ni = (ni * 10) + (s[c] - '0');
-			c++;
-		}
-		if (isi == 1)
-		{
-			break;
-		}
-		c++;
+		d++;
 	}
-	ni *= min;
-	return (ni);
+	printf("%ld\n", num);
+
+	return (0);
 }
