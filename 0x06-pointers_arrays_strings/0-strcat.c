@@ -8,18 +8,20 @@
  * Return: a pointer to a char
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
-	int len;
-	int len2;
+	char *s = dest;
 
-	for (len = 0; dest[len]; len++)
+	while (*dest != '\0')
 	{
-		for (len2 = 0; src[len2]; len2++)
-		{
-			dest[len] = src[len2];
-			len++;
-		}
+		dest++;
 	}
-	return (dest);
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+	*dest = '\0';
+	return (s);
 }
