@@ -7,7 +7,7 @@
  * Return: a pointer to the changed string
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	iunsigned int i;
 	int temp;
