@@ -6,7 +6,7 @@
  * Return: the enconde string.
  */
 
-char *leet(char *)
+char *leet(char *s)
 {
 	int i;
 	int j;
