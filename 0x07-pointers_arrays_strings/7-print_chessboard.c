@@ -7,13 +7,16 @@
 
 void print_chessboard(char (*a)[8])
 {
-	int indx1, indx2;
+	int i = 0, j = 0;
 
-	for (indx1 = 0; a[indx1][7]; indx1++)
+	while (i < 8)
 	{
-		for (indx2 = 0; indx2 < 8; indx2++)
-			_putchar(a[indx1][indx2]);
-
-		_putchar('\n');
+		while (j < 8)
+		{
+			printf("%c", a[i][j]);
+			j++;
+		}
+		printf("\n");
+		i++;
 	}
 }
