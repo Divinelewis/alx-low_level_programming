@@ -10,6 +10,10 @@
 
 int factorial(int n)
 {
+	/**
+	 * @divine: an argument representing result
+	 */
+
 	int divine = n;
 
 	if (n < 1)
@@ -19,4 +23,6 @@ int factorial(int n)
 		return (1);
 
 	divine *= factorial (n -1);
+
+	return (divine);
 }
