@@ -20,7 +20,7 @@ int _sqrt_recursion(int n)
  * Return: a number
  */
 
-int find_sqrt(int n, int i);
+int find_sqrt(int n, int i)
 {
 	int square = i * i;
 
