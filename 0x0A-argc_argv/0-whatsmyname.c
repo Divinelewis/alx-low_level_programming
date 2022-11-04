@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main -> This is a function to print a name 
@@ -8,8 +9,8 @@
  * Return: 0 for success
  */
 
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", *argv);
+	printf("%s\n", argv[argc * 0]);
 	return (0);
 }
