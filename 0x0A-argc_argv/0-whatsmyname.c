@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * main -> This is a function to print a name 
+ * main -> This is a function to print a name
  * and a new file
  * @argc: argc parameter
- * @argvv: an array of a command listed
+ * @argv: an array of a command listed
  * Return: 0 for success
  */
 
