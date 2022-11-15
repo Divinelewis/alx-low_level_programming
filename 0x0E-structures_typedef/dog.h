@@ -2,10 +2,18 @@
 #define DOG_H
 
 /**
+ * Libraries
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
  * struct dog - A new type describing a dog.
  * @name: The name of the dog.
  * @age: The age of the dog.
  * @owner: The owner of the dog.
+ *
+ * Description - Defines the structure for creating dogs
  */
 struct dog
 {
